@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BattleTank.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{15BD4030-B0BD-413A-A69C-9B8CD7E2F0AB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BattleTank.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BattleTankEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{94758B54-EA8D-4C35-B2DB-F9114E26CE5E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{869F9F7C-CD6C-4E01-8050-A7CC16D28A39}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{1072E414-6058-4956-B339-E2051B3B9C3C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{EFF6EB57-1FE2-4BBF-84D7-A16E9E749D5B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{60821B47-8177-46E8-8EF6-0E441BC1A67F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{5F547063-D68E-4A0D-9AE9-3B17CC058918}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{B706325A-FFEA-44FA-8743-9475B2AAC7F9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{1B2BB0B1-B9F5-4115-8CC4-B39A1DC7D80E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{CD25CCBF-1D9E-4798-B2E0-DA6F339D7E8A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\BattleTank">
+      <UniqueIdentifier>{091B20D6-E6BD-482E-BA1F-C1492C0F6BDD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BattleTank\BattleTank.Build.cs">
+      <Filter>Source\BattleTank</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BattleTank\BattleTank.cpp">
+      <Filter>Source\BattleTank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleTank\BattleTank.h">
+      <Filter>Source\BattleTank</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BattleTank\BattleTankGameModeBase.cpp">
+      <Filter>Source\BattleTank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleTank\BattleTankGameModeBase.h">
+      <Filter>Source\BattleTank</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
