@@ -1,4 +1,4 @@
-﻿Log file open, 06/24/20 10:04:36
+﻿Log file open, 06/25/20 09:27:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: BattleTank
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 9.581313
+LogStats: Stats thread started at 4.869201
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,352 +157,667 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.06.24-09.05.40:563][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.06.24-09.05.40:563][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
-[2020.06.24-09.05.40:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.06.24-09.05.40:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
-[2020.06.24-09.05.40:599][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
-[2020.06.24-09.05.41:771][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.24-09.05.41:771][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.24-09.05.41:772][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.24-09.05.42:062][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.24-09.05.42:108][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.06.24-09.05.42:684][  0]LogHAL: Display: Platform has ~ 8 GB [8529805312 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.06.24-09.05.42:684][  0]LogInit: Going up to parent DeviceProfile []
-[2020.06.24-09.05.42:744][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.42:744][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.24-09.05.42:744][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.24-09.05.42:744][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.42:744][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.24-09.05.42:744][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.42:744][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.24-09.05.42:744][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.24-09.05.42:744][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.24-09.05.42:744][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.24-09.05.42:744][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.24-09.05.42:744][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.24-09.05.42:744][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.24-09.05.42:745][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.06.24-09.05.42:772][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.06.24-09.05.42:772][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.06.24-09.05.42:772][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
-[2020.06.24-09.05.42:871][  0]LogInit: Computer: DESKTOP-0CQVP2H
-[2020.06.24-09.05.42:871][  0]LogInit: User: world
-[2020.06.24-09.05.42:871][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.06.24-09.05.42:871][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.06.24-09.05.42:976][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.06.24-09.05.43:054][  0]LogMemory: Platform Memory Stats for Windows
-[2020.06.24-09.05.43:054][  0]LogMemory: Process Physical Memory: 100.80 MB used, 100.81 MB peak
-[2020.06.24-09.05.43:054][  0]LogMemory: Process Virtual Memory: 100.47 MB used, 100.47 MB peak
-[2020.06.24-09.05.43:054][  0]LogMemory: Physical Memory: 5160.92 MB used,  2973.74 MB free, 8134.66 MB total
-[2020.06.24-09.05.43:054][  0]LogMemory: Virtual Memory: 4669.05 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2020.06.24-09.05.43:533][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.06.24-09.06.11:605][  0]LogInit: Using OS detected language (en-GB).
-[2020.06.24-09.06.11:605][  0]LogInit: Using OS detected locale (en-GB).
-[2020.06.24-09.06.13:457][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2020.06.24-09.06.20:913][  0]LogInit: Setting process to per monitor DPI aware
-[2020.06.24-09.06.29:182][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.06.24-09.06.29:182][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.06.24-09.07.19:414][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.06.24-09.07.19:414][  0]LogD3D11RHI: D3D11 adapters:
-[2020.06.24-09.07.34:135][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2020.06.24-09.07.34:135][  0]LogD3D11RHI:       4018/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.06.24-09.07.35:461][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.06.24-09.07.35:461][  0]LogD3D11RHI:       0/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.06.24-09.07.35:461][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.06.24-09.07.37:158][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.06.24-09.07.37:159][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2020.06.24-09.07.37:226][  0]LogWindows: EnumDisplayDevices:
-[2020.06.24-09.07.37:227][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2020.06.24-09.07.37:227][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
-[2020.06.24-09.07.37:228][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.06.24-09.07.37:228][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.06.24-09.07.37:228][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.06.24-09.07.37:228][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2020.06.24-09.07.37:729][  0]LogD3D11RHI:   Driver Version: 446.14 (internal:26.21.14.4614, unified:446.14)
-[2020.06.24-09.07.37:729][  0]LogD3D11RHI:      Driver Date: 5-15-2020
-[2020.06.24-09.07.37:729][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2020.06.24-09.07.42:110][  0]LogD3D11RHI: Async texture creation enabled
-[2020.06.24-09.07.57:379][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
-[2020.06.24-09.08.17:855][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.06.24-09.08.18:373][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.06.24-09.08.18:642][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.06.24-09.08.19:274][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.06.24-09.08.20:555][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.06.24-09.08.20:567][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.06.24-09.08.20:577][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.06.24-09.08.20:589][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.06.24-09.08.20:595][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.06.24-09.08.21:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.06.24-09.08.21:825][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.06.24-09.08.23:226][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.06.24-09.08.23:226][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.06.24-09.08.23:465][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.06.24-09.08.23:465][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.06.24-09.08.24:376][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.06.24-09.08.24:647][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.06.24-09.08.24:999][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.06.24-09.08.25:592][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.06.24-09.08.26:156][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.06.24-09.08.26:156][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.06.24-09.08.26:156][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.06.24-09.08.26:175][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.06.24-09.08.30:442][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../SourceTree/04_BattleTanks/BattleTank/Intermediate/Shaders/WorkingDirectory/11140/).
-[2020.06.24-09.08.30:443][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/world/AppData/Local/Temp/UnrealShaderWorkingDir/BA517F324CF577B386EAFFAC010AAA79/'.
-[2020.06.24-09.08.30:736][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.06.24-09.08.30:736][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.06.24-09.08.30:736][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.06.24-09.09.50:875][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.06.24-09.09.53:838][  0]LogDerivedDataCache: Loaded boot cache 2.96s 73MB C:/Users/world/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.06.24-09.09.53:838][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/world/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2020.06.24-09.09.53:838][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../SourceTree/04_BattleTanks/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.06.24-09.09.53:838][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.06.24-09.09.53:839][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../SourceTree/04_BattleTanks/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.24-09.09.53:839][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.06.24-09.09.55:339][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.06.24-09.09.55:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.24-09.09.55:339][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.06.24-09.09.55:888][  0]LogDerivedDataCache: Using Local data cache path C:/Users/world/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.06.24-09.09.55:889][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.06.24-09.09.55:889][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.06.24-09.09.59:239][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.06.24-09.10.00:556][  0]LogSlate: Using FreeType 2.6.0
-[2020.06.24-09.10.01:444][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.06.24-09.10.30:295][  0]LogAssetRegistry: FAssetRegistry took 1.1959 seconds to start up
-[2020.06.24-09.11.55:129][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../SourceTree/04_BattleTanks/BattleTank/Intermediate/CachedAssetRegistry.bin
-[2020.06.24-09.11.55:129][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.24-09.12.17:346][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.06.24-09.12.17:346][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.06.24-09.12.17:346][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.06.24-09.12.17:347][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.06.24-09.12.17:700][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.06.24-09.12.29:138][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 546309489)
-[2020.06.24-09.13.45:626][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../SourceTree/04_BattleTanks/BattleTank/Intermediate/AssetRegistryCache/8c0e1344.bin
-[2020.06.24-09.13.45:840][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../SourceTree/04_BattleTanks/BattleTank/Intermediate/AssetRegistryCache/6bead350.bin
-[2020.06.24-09.13.47:300][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 3.862410 seconds
-[2020.06.24-09.13.48:000][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2020.06.24-09.13.48:000][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2020.06.24-09.13.48:000][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.06.24-09.15.26:514][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.06.24-09.15.26:606][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.06.24-09.15.28:225][  0]SourceControl: Source control is disabled
-[2020.06.24-09.15.28:225][  0]SourceControl: Source control is disabled
-[2020.06.24-09.15.28:228][  0]SourceControl: Source control is disabled
-[2020.06.24-09.15.28:231][  0]SourceControl: Source control is disabled
-[2020.06.24-09.15.31:473][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.06.24-09.15.32:391][  0]LogOcInput: OculusInput pre-init called
-[2020.06.24-09.15.32:663][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.06.24-09.15.32:663][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.06.24-09.15.33:557][  0]LogEngine: Initializing Engine...
-[2020.06.24-09.15.39:001][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.06.24-09.15.43:173][  0]LogStats: UGameplayTagsManager::InitializeManager -  1.436 s
-[2020.06.24-09.15.55:037][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.06.24-09.16.24:808][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.06.24-09.16.30:007][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2020.06.24-09.16.31:905][  0]LogInit: FAudioDevice initialized.
-[2020.06.24-09.16.31:905][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.06.24-09.16.32:990][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/world/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.06.24-09.16.33:619][  0]LogInit: Texture streaming: Enabled
-[2020.06.24-09.16.37:016][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.06.24-09.18.22:911][  0]LogWindows: Error: === Critical error: ===
-[2020.06.24-09.18.22:911][  0]LogWindows: Error: 
-[2020.06.24-09.18.22:911][  0]LogWindows: Error: Fatal error!
-[2020.06.24-09.18.22:911][  0]LogWindows: Error: 
-[2020.06.24-09.18.22:911][  0]LogWindows: Error: 
-[2020.06.24-09.18.23:224][  0]LogExit: Executing StaticShutdownAfterError
-[2020.06.24-09.18.23:331][  0]LogWindows: FPlatformMisc::RequestExit(1)
-[2020.06.24-09.18.24:004][  0]Log file closed, 06/24/20 10:18:24
+[2020.06.25-08.27.10:828][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.25-08.27.10:828][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.25-08.27.10:846][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.06.25-08.27.10:846][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.25-08.27.10:846][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.06.25-08.27.10:846][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.06.25-08.27.10:846][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.06.25-08.27.10:846][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.25-08.27.10:846][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.25-08.27.10:846][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.25-08.27.10:846][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.25-08.27.10:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.06.25-08.27.10:847][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.06.25-08.27.10:927][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.25-08.27.10:927][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.25-08.27.10:928][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.25-08.27.11:111][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.25-08.27.11:130][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.25-08.27.11:181][  0]LogHAL: Display: Platform has ~ 8 GB [8529805312 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.25-08.27.11:181][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.25-08.27.11:182][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.25-08.27.11:182][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.25-08.27.11:183][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.25-08.27.11:207][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.25-08.27.11:207][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.25-08.27.11:207][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Config/Windows/Engine.ini]
+[2020.06.25-08.27.11:253][  0]LogInit: Computer: DESKTOP-0CQVP2H
+[2020.06.25-08.27.11:253][  0]LogInit: User: world
+[2020.06.25-08.27.11:253][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.06.25-08.27.11:253][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.25-08.27.11:254][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.25-08.27.11:254][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.25-08.27.11:254][  0]LogMemory: Process Physical Memory: 100.34 MB used, 100.34 MB peak
+[2020.06.25-08.27.11:254][  0]LogMemory: Process Virtual Memory: 88.36 MB used, 88.36 MB peak
+[2020.06.25-08.27.11:254][  0]LogMemory: Physical Memory: 5569.41 MB used,  2565.24 MB free, 8134.66 MB total
+[2020.06.25-08.27.11:254][  0]LogMemory: Virtual Memory: 4652.24 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.06.25-08.27.11:613][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.25-08.27.12:285][  0]LogInit: Using OS detected language (en-GB).
+[2020.06.25-08.27.12:285][  0]LogInit: Using OS detected locale (en-GB).
+[2020.06.25-08.27.12:402][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.06.25-08.27.13:392][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.25-08.27.14:143][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.25-08.27.14:143][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.25-08.27.26:480][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.06.25-08.27.26:480][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.25-08.27.27:779][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.06.25-08.27.27:779][  0]LogD3D11RHI:       4018/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.06.25-08.27.27:782][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.25-08.27.27:782][  0]LogD3D11RHI:       0/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.25-08.27.27:782][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.25-08.27.28:312][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.25-08.27.28:312][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.25-08.27.28:312][  0]LogWindows: EnumDisplayDevices:
+[2020.06.25-08.27.28:312][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.06.25-08.27.28:312][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2020.06.25-08.27.28:313][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.06.25-08.27.28:313][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.06.25-08.27.28:313][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.06.25-08.27.28:313][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.06.25-08.27.28:343][  0]LogD3D11RHI:   Driver Version: 446.14 (internal:26.21.14.4614, unified:446.14)
+[2020.06.25-08.27.28:344][  0]LogD3D11RHI:      Driver Date: 5-15-2020
+[2020.06.25-08.27.28:344][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.06.25-08.27.28:502][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.25-08.27.28:973][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.06.25-08.27.44:361][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.06.25-08.27.44:583][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.06.25-08.27.44:674][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.06.25-08.27.44:721][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.06.25-08.27.45:135][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.06.25-08.27.45:638][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.06.25-08.27.45:712][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.25-08.27.46:096][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.06.25-08.27.46:196][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.06.25-08.27.46:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.06.25-08.27.46:947][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.06.25-08.27.47:389][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.06.25-08.27.47:389][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.06.25-08.27.47:461][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.06.25-08.27.47:461][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.06.25-08.27.47:896][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.06.25-08.27.48:109][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.25-08.27.48:222][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.06.25-08.27.48:505][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.06.25-08.27.48:776][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.06.25-08.27.48:776][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.06.25-08.27.48:776][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.25-08.27.49:515][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.25-08.27.53:156][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../SourceTree/04_BattleTanks/BattleTank/Intermediate/Shaders/WorkingDirectory/25428/).
+[2020.06.25-08.27.53:156][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/world/AppData/Local/Temp/UnrealShaderWorkingDir/B9CC6A5449EDE4575EE6B5961A7A0889/'.
+[2020.06.25-08.27.53:179][  0]LogXGEController: Cleaning working directory: C:/Users/world/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.25-08.27.53:180][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.25-08.27.53:190][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.25-08.27.53:190][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.25-08.27.59:648][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.25-08.28.01:038][  0]LogDerivedDataCache: Loaded boot cache 1.39s 73MB C:/Users/world/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.06.25-08.28.01:039][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/world/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.06.25-08.28.01:039][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../SourceTree/04_BattleTanks/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.25-08.28.01:039][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.25-08.28.01:039][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../SourceTree/04_BattleTanks/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.25-08.28.01:039][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.25-08.28.01:113][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.25-08.28.01:113][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.25-08.28.01:113][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.25-08.28.01:125][  0]LogDerivedDataCache: Using Local data cache path C:/Users/world/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.25-08.28.01:125][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.25-08.28.01:125][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.25-08.28.01:180][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.25-08.28.01:311][  0]LogSlate: Using FreeType 2.6.0
+[2020.06.25-08.28.01:421][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.25-08.28.04:147][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2020.06.25-08.28.09:597][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.25-08.28.13:361][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.25-08.28.13:361][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.25-08.28.13:361][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.25-08.28.13:361][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.25-08.28.13:361][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.25-08.28.14:785][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 546309489)
+[2020.06.25-08.28.28:461][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.086127 seconds
+[2020.06.25-08.28.28:469][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.06.25-08.28.28:469][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.06.25-08.28.28:469][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.25-08.28.48:422][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.25-08.28.48:442][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.25-08.28.49:437][  0]SourceControl: Source control is disabled
+[2020.06.25-08.28.49:453][  0]SourceControl: Source control is disabled
+[2020.06.25-08.28.49:596][  0]SourceControl: Source control is disabled
+[2020.06.25-08.28.49:612][  0]SourceControl: Source control is disabled
+[2020.06.25-08.28.51:157][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.25-08.28.52:763][  0]LogOcInput: OculusInput pre-init called
+[2020.06.25-08.28.52:807][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.25-08.28.52:807][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.25-08.28.54:010][  0]LogEngine: Initializing Engine...
+[2020.06.25-08.28.54:087][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.06.25-08.28.54:132][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.012 s
+[2020.06.25-08.28.55:284][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.25-08.28.55:768][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.25-08.28.56:015][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.25-08.28.56:185][  0]LogInit: FAudioDevice initialized.
+[2020.06.25-08.28.56:185][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.25-08.28.57:051][  0]LogDerivedDataCache: Saved boot cache 0.87s 73MB C:/Users/world/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.06.25-08.28.57:053][  0]LogInit: Texture streaming: Enabled
+[2020.06.25-08.28.57:853][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.25-08.28.57:853][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={DF94A23A-4ED6-FB08-FAB7-3B947D3E6FB8}
+[2020.06.25-08.28.57:853][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.25-08.28.57:926][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.25-08.28.59:175][  0]LogInit: Transaction tracking system initialized
+[2020.06.25-08.29.02:326][  0]BlueprintLog: New page: Editor Load
+[2020.06.25-08.29.06:927][  0]LocalizationService: Localization service is disabled
+[2020.06.25-08.29.12:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Content/' took 0.00s
+[2020.06.25-08.29.12:577][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.25-08.29.12:577][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.25-08.29.30:084][  0]SourceControl: Source control is disabled
+[2020.06.25-08.29.30:152][  0]Cmd: MAP LOAD FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.25-08.29.30:203][  0]LightingResults: New page: Lighting Build
+[2020.06.25-08.29.30:625][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.25-08.29.30:880][  0]MapCheck: New page: Map Check
+[2020.06.25-08.29.30:880][  0]LightingResults: New page: Lighting Build
+[2020.06.25-08.29.31:483][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.06.25-08.29.56:633][  0]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.25-08.30.07:060][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.25-08.30.07:601][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.06.25-08.30.07:731][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.25-08.30.07:758][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 27.688ms to complete.
+[2020.06.25-08.30.07:758][  0]LogFileHelpers: Loading map 'BattleGround' took 37.638
+[2020.06.25-08.30.21:283][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.25-08.30.21:507][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.25-08.30.21:513][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.25-08.30.21:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.25-08.30.22:422][  0]LogCollectionManager: Loaded 0 collections in 0.020696 seconds
+[2020.06.25-08.30.23:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Saved/Collections/' took 0.00s
+[2020.06.25-08.30.23:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Content/Developers/world/Collections/' took 0.00s
+[2020.06.25-08.30.23:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/Content/Collections/' took 0.00s
+[2020.06.25-08.30.23:935][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2020.06.25-08.30.24:054][  0]LogContentBrowser: Native class hierarchy populated in 0.0866 seconds. Added 2865 classes and 684 folders.
+[2020.06.25-08.30.24:566][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.25-08.30.27:782][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.25-08.30.28:550][  0]LogSlate: Took 0.031433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.25-08.30.28:810][  0]LogSlate: Took 0.008693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.25-08.30.28:973][  0]LogSlate: Took 0.015859 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.25-08.30.31:511][  0]LogRenderer: Reallocating scene render targets to support 976x600 Format 10 NumSamples 1 (Frame:1).
+[2020.06.25-08.30.33:980][  0]LogSlate: Took 0.010337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.25-08.30.34:574][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.25-08.30.34:574][  0]LogLoad: (Engine Initialization) Total time: 245.76 seconds
+[2020.06.25-08.30.34:574][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.25-08.30.35:896][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.25-08.30.37:338][  2]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.25-08.30.41:813][ 47]LogAssetRegistry: Asset discovery search completed in 157.6662 seconds
+[2020.06.25-08.30.41:980][ 47]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2020.06.25-08.30.41:980][ 47]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2020.06.25-08.31.34:811][206]LogEditorSessionSummary: EditorSessionSummary sent report. Type=AbnormalShutdown, SessionId={F48B1DF0-4BE5-4EF2-82D4-F6970C3EF2BD}
+[2020.06.25-09.11.56:480][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.11.56:631][466]LogAssetEditorManager: Opening Asset editor for Material /Game/Landscape.Landscape
+[2020.06.25-09.11.56:920][466]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.06.25-09.11.58:892][466]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.06.25-09.11.59:004][466]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2020.06.25-09.11.59:004][466]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2020.06.25-09.11.59:006][466]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.06.25-09.11.59:046][466]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.06.25-09.11.59:091][466]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.06.25-09.11.59:153][466]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2020.06.25-09.11.59:639][466]LogSlate: Took 0.028991 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.25-09.12.02:558][563]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 42
+[2020.06.25-09.12.02:558][563]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 41
+[2020.06.25-09.12.02:757][580]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 40
+[2020.06.25-09.12.02:757][580]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 39
+[2020.06.25-09.12.02:971][601]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 38
+[2020.06.25-09.12.02:971][601]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 37
+[2020.06.25-09.12.03:169][621]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2020.06.25-09.12.03:187][623]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 35
+[2020.06.25-09.12.03:294][634]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 34
+[2020.06.25-09.12.03:421][647]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 33
+[2020.06.25-09.12.03:469][652]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 32
+[2020.06.25-09.12.03:935][699]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2020.06.25-09.12.03:935][699]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2020.06.25-09.12.04:224][728]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2020.06.25-09.12.04:321][738]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 28
+[2020.06.25-09.12.04:580][764]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2020.06.25-09.12.04:619][768]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2020.06.25-09.12.04:977][804]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2020.06.25-09.12.05:026][809]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2020.06.25-09.12.05:235][830]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.06.25-09.12.05:465][852]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.06.25-09.12.05:624][868]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
+[2020.06.25-09.12.05:724][878]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.06.25-09.12.06:038][909]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2020.06.25-09.12.06:709][981]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.06.25-09.12.06:862][997]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2020.06.25-09.12.07:278][ 39]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2020.06.25-09.12.07:298][ 41]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.06.25-09.12.07:604][ 71]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.06.25-09.12.07:690][ 80]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.06.25-09.12.07:953][106]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.06.25-09.12.07:995][109]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.06.25-09.12.08:091][111]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.06.25-09.12.08:091][111]MaterialEditorStats: Base pass shader with Surface Lightmap: 144 instructions
+[2020.06.25-09.12.08:091][111]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.06.25-09.12.08:091][111]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.06.25-09.12.08:091][111]MaterialEditorStats: Texture samplers: 3/16
+[2020.06.25-09.12.08:463][148]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.06.25-09.12.08:484][150]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.06.25-09.12.08:733][174]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.06.25-09.12.08:810][179]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.06.25-09.12.09:034][201]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.06.25-09.12.09:092][207]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.06.25-09.12.09:323][230]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.06.25-09.12.09:386][236]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.06.25-09.12.09:698][267]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.06.25-09.12.09:718][269]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.06.25-09.16.27:431][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.16.27:539][877]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.25-09.16.27:707][877]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.25-09.16.27:778][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.25-09.16.27:831][877]PIE: New page: PIE session: BattleGround (25 Jun 2020 11:16:27)
+[2020.06.25-09.16.28:037][877]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.25-09.16.28:059][877]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.25-09.16.30:635][877]LogPlayLevel: PIE: StaticDuplicateObject took: (2.575311s)
+[2020.06.25-09.16.30:652][877]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.25-09.16.30:661][877]LogPlayLevel: PIE: World Init took: (0.016486s)
+[2020.06.25-09.16.30:677][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (2.617364s)
+[2020.06.25-09.16.30:827][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.06.25-09.16.30:876][877]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.25-09.16.30:915][877]LogInit: FAudioDevice initialized.
+[2020.06.25-09.16.31:417][877]LogLoad: Game class is 'GameModeBase'
+[2020.06.25-09.16.32:489][877]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.25-10.16.32
+[2020.06.25-09.16.32:565][877]LogWorld: Bringing up level for play took: 0.076238
+[2020.06.25-09.16.32:589][877]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.06.25-09.16.33:025][877]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.06.25-09.16.33:198][877]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 5.668
+[2020.06.25-09.16.33:198][877]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.25-09.19.09:783][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.25-09.19.09:848][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.25-09.19.09:848][584]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.25-09.19.10:020][584]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.25-09.19.10:238][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.25-09.19.10:239][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.25-09.19.10:462][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.25-09.19.11:066][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.06.25-09.19.11:087][585]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.06.25-09.19.40:751][116]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.06.25-09.19.48:177][994]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.06.25-09.19.53:836][564]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.06.25-09.19.56:869][883]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.06.25-09.20.17:895][364]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.06.25-09.20.21:719][816]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.06.25-09.24.24:686][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.24.40:050][895]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\world\Documents\unity Assets\TankParts\tank.fbx_Turret.fbx)
+[2020.06.25-09.24.40:464][895]LogFbx: Loading FBX Scene from C:\Users\world\Documents\unity Assets\TankParts\tank.fbx_Turret.fbx
+[2020.06.25-09.24.40:490][895]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.25-09.25.00:051][895]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.06.25-09.25.02:525][895]LogMaterial: Display: Missing cached shader map for material tank_green_001, compiling. 
+[2020.06.25-09.25.02:577][895]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.06.25-09.25.02:577][895]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.06.25-09.25.02:577][895]LogFbx: Display: Triangulating static mesh turret.001
+[2020.06.25-09.25.02:982][895]LogFbx: Display: Triangulating static mesh Commanders hatch.001
+[2020.06.25-09.25.03:005][895]LogFbx: Display: Triangulating static mesh gunner sight.001
+[2020.06.25-09.25.03:007][895]LogFbx: Display: Triangulating static mesh headlight.004
+[2020.06.25-09.25.03:151][895]LogStaticMesh: Building static mesh tank_fbx_Turret...
+[2020.06.25-09.25.03:505][895]LogStaticMesh: Built static mesh [0.31s] /Game/Tank/tank_fbx_Turret.tank_fbx_Turret
+[2020.06.25-09.25.03:642][895]LogStaticMesh: Warning: tank_fbx_Turret has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.06.25-09.25.03:642][895]LogStaticMesh: Warning: tank_fbx_Turret has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.06.25-09.25.03:847][895]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.06.25-09.25.03:847][895]FBXImport: Warning: tank_fbx_Turret has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.06.25-09.25.03:847][895]FBXImport: Warning: tank_fbx_Turret has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.06.25-09.25.03:941][895]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\world\Documents\unity Assets\TankParts\tank.fbx_Barrel.fbx)
+[2020.06.25-09.25.03:953][895]LogFbx: Loading FBX Scene from C:\Users\world\Documents\unity Assets\TankParts\tank.fbx_Barrel.fbx
+[2020.06.25-09.25.03:958][895]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.25-09.25.03:965][895]LogMaterial: Display: Missing cached shader map for material tank_green_002, compiling. 
+[2020.06.25-09.25.03:977][895]LogFbx: Display: Triangulating static mesh cannon
+[2020.06.25-09.25.04:022][895]LogStaticMesh: Building static mesh tank_fbx_Barrel...
+[2020.06.25-09.25.04:028][895]LogStaticMesh: Built static mesh [0.01s] /Game/Tank/tank_fbx_Barrel.tank_fbx_Barrel
+[2020.06.25-09.25.04:030][895]LogStaticMesh: Warning: tank_fbx_Barrel has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.06.25-09.25.04:030][895]LogStaticMesh: Warning: tank_fbx_Barrel has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.06.25-09.25.04:037][895]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.06.25-09.25.04:037][895]FBXImport: Warning: tank_fbx_Barrel has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.06.25-09.25.04:037][895]FBXImport: Warning: tank_fbx_Barrel has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.06.25-09.25.04:127][895]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\world\Documents\unity Assets\TankParts\tank.fbx_Body.fbx)
+[2020.06.25-09.25.04:139][895]LogFbx: Loading FBX Scene from C:\Users\world\Documents\unity Assets\TankParts\tank.fbx_Body.fbx
+[2020.06.25-09.25.04:180][895]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.25-09.25.04:188][895]LogMaterial: Display: Missing cached shader map for material tank_green, compiling. 
+[2020.06.25-09.25.04:200][895]LogFbx: Display: Triangulating static mesh hull
+[2020.06.25-09.25.04:216][895]LogFbx: Display: Triangulating static mesh headlight.002
+[2020.06.25-09.25.04:227][895]LogFbx: Display: Triangulating static mesh turret neck
+[2020.06.25-09.25.04:230][895]LogFbx: Display: Triangulating static mesh oil drum
+[2020.06.25-09.25.04:331][895]LogFbx: Display: Triangulating static mesh wheel rear
+[2020.06.25-09.25.04:490][895]LogFbx: Display: Triangulating static mesh wheel front
+[2020.06.25-09.25.04:615][895]LogFbx: Display: Triangulating static mesh Hull V
+[2020.06.25-09.25.04:617][895]LogFbx: Display: Triangulating static mesh wheel
+[2020.06.25-09.25.05:343][895]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 46
+[2020.06.25-09.25.05:343][895]LogFbx: Display: Triangulating static mesh track guard
+[2020.06.25-09.25.05:473][895]LogStaticMesh: Building static mesh tank_fbx_Body...
+[2020.06.25-09.25.05:876][895]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 36
+[2020.06.25-09.25.05:876][895]LogStaticMesh: Built static mesh [0.40s] /Game/Tank/tank_fbx_Body.tank_fbx_Body
+[2020.06.25-09.25.05:948][895]LogStaticMesh: Warning: tank_fbx_Body has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.06.25-09.25.05:948][895]LogStaticMesh: Warning: tank_fbx_Body has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.06.25-09.25.06:064][895]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.06.25-09.25.06:064][895]FBXImport: Warning: tank_fbx_Body has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.06.25-09.25.06:064][895]FBXImport: Warning: tank_fbx_Body has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.06.25-09.25.06:148][895]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\world\Documents\unity Assets\TankParts\tank.fbx_Track.fbx)
+[2020.06.25-09.25.06:159][895]LogFbx: Loading FBX Scene from C:\Users\world\Documents\unity Assets\TankParts\tank.fbx_Track.fbx
+[2020.06.25-09.25.06:167][895]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.25-09.25.06:175][895]LogMaterial: Display: Missing cached shader map for material track_001, compiling. 
+[2020.06.25-09.25.06:188][895]LogFbx: Display: Triangulating static mesh track.001
+[2020.06.25-09.25.06:749][895]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 48
+[2020.06.25-09.25.06:749][895]LogStaticMesh: Building static mesh tank_fbx_Track...
+[2020.06.25-09.25.07:010][895]LogStaticMesh: Built static mesh [0.26s] /Game/Tank/tank_fbx_Track.tank_fbx_Track
+[2020.06.25-09.25.07:037][895]LogStaticMesh: Warning: tank_fbx_Track has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.06.25-09.25.07:037][895]LogStaticMesh: Warning: tank_fbx_Track has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.06.25-09.25.07:138][895]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.06.25-09.25.07:138][895]FBXImport: Warning: tank_fbx_Track has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.06.25-09.25.07:138][895]FBXImport: Warning: tank_fbx_Track has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.06.25-09.25.08:912][ 27]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 38
+[2020.06.25-09.25.09:025][ 40]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2020.06.25-09.25.11:950][373]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.06.25-09.25.12:338][419]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.06.25-09.25.13:257][529]LogSlate: Window 'Message Log' being destroyed
+[2020.06.25-09.25.13:261][529]LogSlate: Window 'Message Log' being destroyed
+[2020.06.25-09.25.14:367][632]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.06.25-09.25.15:044][685]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.06.25-09.25.23:185][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.06.25-09.25.25:066][303]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.25-09.25.26:244][303]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Tank/track_001.track_001
+	Asset Name: /Game/Tank/tank_green.tank_green
+	Asset Name: /Game/Tank/tank_green_001.tank_green_001
+	Asset Name: /Game/Tank/tank_green_002.tank_green_002
+[2020.06.25-09.25.29:445][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.06.25-09.26.00:953][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.06.25-09.26.02:455][550]LogSlate: Window 'Save Content' being destroyed
+[2020.06.25-09.26.02:529][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Barrel" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Barrel.uasset" SILENT=true
+[2020.06.25-09.26.02:759][550]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/tank_fbx_Barrel4D427D794EFF0A23974EC5BE4D01CBEB.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Barrel.uasset'
+[2020.06.25-09.26.02:795][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Body.uasset" SILENT=true
+[2020.06.25-09.26.02:840][550]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/tank_fbx_Body87ED185B4985CE929DEAC28C0FFB196F.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Body.uasset'
+[2020.06.25-09.26.02:854][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Track" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Track.uasset" SILENT=true
+[2020.06.25-09.26.02:876][550]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/tank_fbx_Track956664C347BAEC033286AFA2621F5AFC.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Track.uasset'
+[2020.06.25-09.26.02:888][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Turret" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Turret.uasset" SILENT=true
+[2020.06.25-09.26.02:903][550]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/tank_fbx_TurretC553CCCE48B325D5E3CA648CDBD6409B.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Turret.uasset'
+[2020.06.25-09.26.40:228][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.27.31:438][ 46]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.25-09.27.44:866][570]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/Tank_BP.Tank_BP
+[2020.06.25-09.27.46:023][570]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.06.25-09.27.50:853][826]LogRenderer: Reallocating scene render targets to support 976x884 Format 10 NumSamples 1 (Frame:262).
+[2020.06.25-09.27.51:198][865]LogSlate: Window 'Tank_BP' being destroyed
+[2020.06.25-09.27.52:957][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.25-09.27.53:019][ 74]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPF5346789420B27EF63636ABBCDFAF07C.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.25-09.28.03:470][318]LogSlate: Took 0.033283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.25-09.28.30:006][925]LogRenderer: Reallocating scene render targets to support 976x952 Format 10 NumSamples 1 (Frame:2299).
+[2020.06.25-09.29.44:082][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.29.44:157][220]BlueprintLog: New page: Compile Tank_BP
+[2020.06.25-09.29.44:533][220]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.06.25-09.29.45:145][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.25-09.29.45:248][272]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPB11277054258F8AEFA329B936711CDD3.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.25-09.29.54:405][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.30.04:542][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.30.23:079][300]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Body.tank_fbx_Body
+[2020.06.25-09.30.43:322][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.31.13:828][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.31.36:535][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Body.uasset" SILENT=true
+[2020.06.25-09.31.36:581][ 13]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/tank_fbx_Body1E6ABAC147EC50BE2DE5829980BA5486.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Body.uasset'
+[2020.06.25-09.32.03:814][992]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.06.25-09.32.54:760][829]BlueprintLog: New page: Compile Tank_BP
+[2020.06.25-09.32.55:075][829]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.06.25-09.32.55:743][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.25-09.32.55:758][902]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPDE2B89B84970EBA1A707958A3353348A.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.25-09.33.15:671][394]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Barrel.tank_fbx_Barrel
+[2020.06.25-09.34.17:709][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.34.25:866][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.25-09.34.25:880][749]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP14E555E343135300724F80B012DA604E.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.25-09.34.26:724][831]BlueprintLog: New page: Compile Tank_BP
+[2020.06.25-09.34.26:997][831]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.06.25-09.34.27:455][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.25-09.34.27:469][872]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPAF2F07B047EAE11A67438E83681BEE67.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.25-09.34.46:382][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Body.uasset" SILENT=true
+[2020.06.25-09.34.46:426][ 80]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/tank_fbx_BodyA520F170445F819DA7FE7DBD82380B50.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Body.uasset'
+[2020.06.25-09.34.54:015][412]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Turret.tank_fbx_Turret
+[2020.06.25-09.35.20:416][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.35.37:946][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.35.53:806][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.36.40:090][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.36.44:116][474]BlueprintLog: New page: Compile Tank_BP
+[2020.06.25-09.36.44:299][474]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.06.25-09.36.45:082][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.25-09.36.45:096][526]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPBDF5856947AE0EAD534C22BB31120F6C.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.25-09.37.06:561][ 90]LogEditorTransaction: Undo Modify Component(s)
+[2020.06.25-09.37.07:542][135]LogEditorTransaction: Undo Modify Component(s)
+[2020.06.25-09.37.08:816][210]LogEditorTransaction: Undo Edit Preview Static Mesh
+[2020.06.25-09.37.13:370][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.37.57:980][  8]BlueprintLog: New page: Compile Tank_BP
+[2020.06.25-09.37.58:193][  8]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.06.25-09.37.58:706][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.25-09.37.58:721][ 41]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP86B7D3E147BD284754D62CA82A330D49.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.25-09.38.50:694][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.39.12:618][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.06.25-09.39.14:762][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.39.15:657][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Body.uasset" SILENT=true
+[2020.06.25-09.39.15:703][286]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/tank_fbx_BodyCBBF2C494B69F5F36F26E1AC00FF94F9.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Body.uasset'
+[2020.06.25-09.39.23:943][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.39.25:849][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Turret" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Turret.uasset" SILENT=true
+[2020.06.25-09.39.25:865][214]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/tank_fbx_Turret6C461E8B447CAB9F15A6199AA16849CF.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Turret.uasset'
+[2020.06.25-09.40.05:956][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.40.14:772][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.40.37:765][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.25-09.40.37:788][785]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPD08EC94E485107A0E109E7A8AB735545.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.25-09.40.38:752][856]BlueprintLog: New page: Compile Tank_BP
+[2020.06.25-09.40.38:933][856]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.06.25-09.40.39:653][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.25-09.40.39:667][905]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPA1BA9B2B42D45764D9AA97BD84139158.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.25-09.40.53:143][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.40.55:653][967]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.06.25-09.40.56:617][967]LogSlate: Window 'Save Content' being destroyed
+[2020.06.25-09.40.56:642][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Body.uasset" SILENT=true
+[2020.06.25-09.40.56:687][967]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/tank_fbx_BodyC325F5B8428B5A4311E80CA911CB2B3A.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/tank_fbx_Body.uasset'
+[2020.06.25-09.40.58:360][ 64]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.06.25-09.40.58:980][ 98]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.06.25-09.40.59:825][142]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.06.25-09.41.00:402][192]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.06.25-09.41.13:777][712]Cmd: DELETE
+[2020.06.25-09.41.13:788][712]Cmd: ACTOR DELETE
+[2020.06.25-09.41.14:098][712]LogEditorActor: Deleted Actor: Tank_BP_C
+[2020.06.25-09.41.14:215][712]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.06.25-09.41.14:215][712]LogEditorActor: Deleted 1 Actors (0.154 secs)
+[2020.06.25-09.41.49:134][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.25-09.41.52:443][261]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.06.25-09.41.52:506][261]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.06.25-09.41.52:679][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.06.25-09.41.55:902][261]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround_Auto1F1939FD747769364D51941860B3A671B.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto1.umap'
+[2020.06.25-09.41.55:904][261]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BattleGround' took 3.442
+[2020.06.25-09.41.55:904][261]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.442
