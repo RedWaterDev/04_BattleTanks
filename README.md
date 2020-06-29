@@ -11,3 +11,5 @@ Painting the landscape with textures from the UE4 Starter Content
 Bring the tank into the game and jion static meshes with sockets.
 ### Tank Configeration ###
 Making tank default pawn, adding physics to tank and setting game mode. 
+### 3rd Person Camera Control ###
+Setting Up 3rd Person Camera Control.

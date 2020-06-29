@@ -802,3 +802,413 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.29-09.18.37:680][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.06.29-09.18.37:687][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
 [2020.06.29-09.18.37:761][886]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.06.29-09.20.30:866][723]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.22.06:277][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.22.06:293][566]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP1AA12CE54819E2388575CB813EA2BCCA.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.22.09:004][890]BlueprintLog: New page: Compile Tank_BP
+[2020.06.29-09.22.09:225][890]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.06.29-09.22.09:945][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.22.09:960][972]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPA25FF3484DC700EF4817ABA106A1748A.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.22.44:431][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.22.52:220][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.23.02:697][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.23.11:100][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.23.11:174][348]BlueprintLog: New page: Compile Tank_BP
+[2020.06.29-09.23.11:407][348]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.06.29-09.23.12:228][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.23.12:243][440]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP69FC8D1C47903AED4C098483847692F7.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.23.14:149][663]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.23.14:156][663]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.23.14:156][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.29-09.23.14:156][663]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:23:14)
+[2020.06.29-09.23.14:156][663]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.23.14:617][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.460098s)
+[2020.06.29-09.23.14:618][663]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.23.14:618][663]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2020.06.29-09.23.14:618][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.461159s)
+[2020.06.29-09.23.14:652][663]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.06.29-09.23.14:672][663]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.23.14:711][663]LogInit: FAudioDevice initialized.
+[2020.06.29-09.23.14:725][663]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.23.14:728][663]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.23.14
+[2020.06.29-09.23.14:728][663]LogWorld: Bringing up level for play took: 0.001695
+[2020.06.29-09.23.14:728][663]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.06.29-09.23.14:731][663]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround -0.31
+[2020.06.29-09.23.14:731][663]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.23.17:689][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.23.17:689][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.23.17:689][988]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.23.17:689][988]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.23.17:703][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.23.17:703][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.23.17:759][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.23.17:765][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.06.29-09.23.17:789][991]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.06.29-09.23.23:212][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.23.23:262][640]BlueprintLog: New page: Compile Tank_BP
+[2020.06.29-09.23.23:452][640]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.06.29-09.23.23:971][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.23.23:986][693]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP5860B340415548BD83CB2683E64FBD47.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.23.25:700][888]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.23.25:707][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.23.25:707][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.29-09.23.25:707][888]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:23:25)
+[2020.06.29-09.23.25:707][888]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.23.26:169][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.461620s)
+[2020.06.29-09.23.26:170][888]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.23.26:170][888]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2020.06.29-09.23.26:170][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.462736s)
+[2020.06.29-09.23.26:204][888]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.06.29-09.23.26:225][888]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.23.26:265][888]LogInit: FAudioDevice initialized.
+[2020.06.29-09.23.26:271][888]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.23.26:273][888]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.23.26
+[2020.06.29-09.23.26:273][888]LogWorld: Bringing up level for play took: 0.001699
+[2020.06.29-09.23.26:273][888]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.06.29-09.23.26:276][888]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 1.235
+[2020.06.29-09.23.26:276][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.23.28:648][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.23.28:649][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.23.28:649][171]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.23.28:649][171]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.23.28:657][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.23.28:657][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.23.28:699][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.23.28:705][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.06.29-09.23.28:754][177]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.06.29-09.23.29:849][308]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.23.29:855][308]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.23.29:856][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.29-09.23.29:856][308]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:23:29)
+[2020.06.29-09.23.29:856][308]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.23.30:313][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.457269s)
+[2020.06.29-09.23.30:314][308]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.23.30:314][308]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2020.06.29-09.23.30:314][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.458264s)
+[2020.06.29-09.23.30:347][308]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.06.29-09.23.30:367][308]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.23.30:407][308]LogInit: FAudioDevice initialized.
+[2020.06.29-09.23.30:417][308]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.23.30:420][308]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.23.30
+[2020.06.29-09.23.30:420][308]LogWorld: Bringing up level for play took: 0.002246
+[2020.06.29-09.23.30:421][308]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.06.29-09.23.30:423][308]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 1.382
+[2020.06.29-09.23.30:423][308]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.24.07:620][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.24.07:673][184]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.24.07:673][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.24.07:673][184]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.24.07:673][184]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.24.07:686][184]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.24.07:686][184]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.24.07:728][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.24.07:734][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.06.29-09.24.07:781][185]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.06.29-09.24.42:522][580]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.24.42:530][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.24.42:530][580]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.06.29-09.24.42:530][580]LogPlayLevel: [PlayLevel] Compiling Tank_BP before play...
+[2020.06.29-09.24.42:737][580]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.06.29-09.24.42:737][580]LogPlayLevel: PlayLevel: Blueprint regeneration took 208 ms (1 blueprints)
+[2020.06.29-09.24.42:737][580]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:24:42)
+[2020.06.29-09.24.42:737][580]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.24.43:212][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.474891s)
+[2020.06.29-09.24.43:213][580]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.24.43:213][580]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2020.06.29-09.24.43:213][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.475931s)
+[2020.06.29-09.24.43:246][580]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.06.29-09.24.43:267][580]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.24.43:306][580]LogInit: FAudioDevice initialized.
+[2020.06.29-09.24.43:315][580]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.24.43:317][580]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.24.43
+[2020.06.29-09.24.43:318][580]LogWorld: Bringing up level for play took: 0.001646
+[2020.06.29-09.24.43:318][580]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.06.29-09.24.43:320][580]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 0.28
+[2020.06.29-09.24.43:320][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.24.45:315][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.24.45:315][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.24.45:315][817]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.24.45:315][817]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.24.45:325][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.24.45:325][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.24.45:370][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.24.45:376][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.06.29-09.24.45:419][822]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.06.29-09.24.47:250][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.24.47:266][ 35]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP2AE388BE47CBCE6BF951668FADE233C4.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.24.49:336][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.29-09.24.49:369][278]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.06.29-09.24.51:238][278]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround1397670A48B8FBA9DB59D6B29B39A3B9.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap'
+[2020.06.29-09.24.51:257][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2020.06.29-09.24.54:204][278]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround_BuiltDataDCD9FFB6465A9E4265FD5DA5B26F2555.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround_BuiltData.uasset'
+[2020.06.29-09.25.23:964][450]BlueprintLog: New page: Compile Tank_BP
+[2020.06.29-09.25.24:150][450]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.06.29-09.25.24:630][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.25.24:645][502]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP424960A2481FCBE70615E7BF27C0271F.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.25.44:792][280]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.06.29-09.25.45:566][280]LogSlate: Window 'Save Content' being destroyed
+[2020.06.29-09.25.45:582][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.29-09.25.45:610][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.06.29-09.25.46:192][280]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround997238DE47DE5EC0DC86F5AD1091FBA1.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap'
+[2020.06.29-09.25.46:210][280]LogFileHelpers: Saving map 'BattleGround' took 0.628
+[2020.06.29-09.25.47:384][419]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.25.47:391][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.25.47:391][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.29-09.25.47:391][419]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:25:47)
+[2020.06.29-09.25.47:391][419]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.25.47:849][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.457806s)
+[2020.06.29-09.25.47:849][419]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.25.47:850][419]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2020.06.29-09.25.47:850][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.458846s)
+[2020.06.29-09.25.47:882][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.06.29-09.25.47:902][419]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.25.47:940][419]LogInit: FAudioDevice initialized.
+[2020.06.29-09.25.47:947][419]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.25.47:949][419]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.25.47
+[2020.06.29-09.25.47:950][419]LogWorld: Bringing up level for play took: 0.001687
+[2020.06.29-09.25.47:950][419]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.06.29-09.25.47:952][419]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 0.912
+[2020.06.29-09.25.47:952][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.25.52:529][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.25.52:529][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.25.52:529][967]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.25.52:529][967]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.25.52:541][967]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.25.52:541][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.25.52:581][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.25.52:588][967]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.06.29-09.25.52:636][973]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.06.29-09.25.53:261][ 48]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.25.53:269][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.25.53:269][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.29-09.25.53:269][ 48]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:25:53)
+[2020.06.29-09.25.53:269][ 48]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.25.53:725][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.454951s)
+[2020.06.29-09.25.53:725][ 48]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.25.53:726][ 48]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2020.06.29-09.25.53:726][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.455992s)
+[2020.06.29-09.25.53:759][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.06.29-09.25.53:780][ 48]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.25.53:818][ 48]LogInit: FAudioDevice initialized.
+[2020.06.29-09.25.53:822][ 48]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.25.53:824][ 48]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.25.53
+[2020.06.29-09.25.53:825][ 48]LogWorld: Bringing up level for play took: 0.001554
+[2020.06.29-09.25.53:825][ 48]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.06.29-09.25.53:827][ 48]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 0.786
+[2020.06.29-09.25.53:827][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.25.56:022][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.25.56:022][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.25.56:022][307]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.25.56:022][307]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.25.56:033][307]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.25.56:033][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.25.56:094][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.25.56:101][307]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.06.29-09.25.56:126][309]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.06.29-09.27.43:688][464]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.06.29-09.27.45:371][661]LogSlate: Window 'Project Settings' being destroyed
+[2020.06.29-09.29.17:938][278]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.06.29-09.29.18:848][278]LogSlate: Window 'Save Content' being destroyed
+[2020.06.29-09.29.18:865][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.29-09.29.18:895][278]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.06.29-09.29.19:487][278]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround0464C9774C5A2EACD49CCFAE00EE5884.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap'
+[2020.06.29-09.29.19:508][278]LogFileHelpers: Saving map 'BattleGround' took 0.642
+[2020.06.29-09.29.19:517][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.29.19:533][278]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP78FB829F4FDBC7BA4E79A9AC5AEE6926.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.29.22:754][662]BlueprintLog: New page: Compile Tank_BP
+[2020.06.29-09.29.22:940][662]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.06.29-09.29.23:844][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.29.23:860][766]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPF76BA80E4AC5D49B45929D98E4AF6076.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.31.27:959][402]BlueprintLog: New page: Compile Tank_BP
+[2020.06.29-09.31.28:173][402]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2020.06.29-09.31.28:576][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.31.28:660][443]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP82183863488A9E0C3203A2BCC57BC9D0.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.31.45:977][516]BlueprintLog: New page: Compile Tank_BP
+[2020.06.29-09.31.46:186][516]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.06.29-09.31.46:558][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.31.46:576][554]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP1730BA8C4481B01BE06D0D81FE44DF88.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.31.49:418][872]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.06.29-09.31.50:202][872]LogSlate: Window 'Save Content' being destroyed
+[2020.06.29-09.31.50:218][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.29-09.31.50:246][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.06.29-09.31.50:891][872]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround944ABF3D498B75271D6028A046B109A6.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap'
+[2020.06.29-09.31.50:908][872]LogFileHelpers: Saving map 'BattleGround' took 0.690
+[2020.06.29-09.31.54:599][118]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.31.54:606][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.31.54:607][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.29-09.31.54:607][118]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:31:54)
+[2020.06.29-09.31.54:607][118]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.31.55:076][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.469383s)
+[2020.06.29-09.31.55:077][118]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.31.55:077][118]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2020.06.29-09.31.55:077][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.470489s)
+[2020.06.29-09.31.55:110][118]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.06.29-09.31.55:131][118]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.31.55:172][118]LogInit: FAudioDevice initialized.
+[2020.06.29-09.31.55:180][118]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.31.55:183][118]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.31.55
+[2020.06.29-09.31.55:183][118]LogWorld: Bringing up level for play took: 0.002068
+[2020.06.29-09.31.55:183][118]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.06.29-09.31.55:278][118]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 0.237
+[2020.06.29-09.31.55:278][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.32.03:052][ 41]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.32.03:052][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.32.03:052][ 41]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.32.03:052][ 41]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.32.03:062][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.32.03:063][ 41]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.32.03:113][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.32.03:119][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.06.29-09.32.03:159][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.06.29-09.32.03:818][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.32.09:564][812]BlueprintLog: New page: Compile Tank_BP
+[2020.06.29-09.32.09:757][812]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.06.29-09.32.10:138][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.32.10:157][852]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPF9A7296E4A9F581E4B8012A8BD7FDED5.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.32.11:285][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.29-09.32.11:316][975]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.06.29-09.32.11:898][975]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround1B6DB49A457EFA2D46E44686C4F924D2.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap'
+[2020.06.29-09.32.11:916][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2020.06.29-09.32.12:938][975]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround_BuiltData757860314A9C5EFD7C9EDBA3E5E9ACFC.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround_BuiltData.uasset'
+[2020.06.29-09.32.13:969][ 87]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.32.13:975][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.32.13:976][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.29-09.32.13:976][ 87]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:32:13)
+[2020.06.29-09.32.13:976][ 87]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.32.14:433][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.456859s)
+[2020.06.29-09.32.14:433][ 87]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.32.14:434][ 87]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2020.06.29-09.32.14:434][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.457836s)
+[2020.06.29-09.32.14:466][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.06.29-09.32.14:486][ 87]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.32.14:524][ 87]LogInit: FAudioDevice initialized.
+[2020.06.29-09.32.14:534][ 87]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.32.14:536][ 87]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.32.14
+[2020.06.29-09.32.14:536][ 87]LogWorld: Bringing up level for play took: 0.001621
+[2020.06.29-09.32.14:537][ 87]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.06.29-09.32.14:539][ 87]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 1.499
+[2020.06.29-09.32.14:539][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.32.33:692][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.32.33:692][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.32.33:692][384]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.32.33:692][384]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.32.33:702][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.32.33:702][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.32.33:750][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.32.33:755][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.06.29-09.32.33:794][387]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.06.29-09.32.50:982][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.34.28:271][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.34.28:292][194]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP6CF058804D2D06B1D07BDCBA4BA3EE80.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.34.30:330][437]BlueprintLog: New page: Compile Tank_BP
+[2020.06.29-09.34.30:529][437]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.06.29-09.34.31:011][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.34.31:031][488]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPC05FE81A4D53953953A99EA6FF580530.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.34.32:530][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.29-09.34.32:564][643]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.06.29-09.34.33:148][643]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGroundDC3F908D49E66CEC36426B8E9A1FC6AA.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap'
+[2020.06.29-09.34.33:167][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2020.06.29-09.34.34:138][643]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround_BuiltData025A301E46106F6EB029A5986794852B.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround_BuiltData.uasset'
+[2020.06.29-09.34.34:818][688]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.34.34:825][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.34.34:825][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.29-09.34.34:826][688]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:34:34)
+[2020.06.29-09.34.34:826][688]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.34.35:295][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.469533s)
+[2020.06.29-09.34.35:296][688]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.34.35:296][688]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2020.06.29-09.34.35:296][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.470618s)
+[2020.06.29-09.34.35:329][688]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.06.29-09.34.35:350][688]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.34.35:389][688]LogInit: FAudioDevice initialized.
+[2020.06.29-09.34.35:397][688]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.34.35:399][688]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.34.35
+[2020.06.29-09.34.35:399][688]LogWorld: Bringing up level for play took: 0.001786
+[2020.06.29-09.34.35:399][688]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.06.29-09.34.35:402][688]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 0.361
+[2020.06.29-09.34.35:402][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.34.58:122][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.34.58:123][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.34.58:123][413]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.34.58:123][413]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.34.58:132][413]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.34.58:132][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.34.58:191][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.34.58:196][413]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.06.29-09.34.58:225][415]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.06.29-09.34.59:020][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.35.10:786][891]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.35.10:793][891]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.35.10:793][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.29-09.35.10:793][891]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:35:10)
+[2020.06.29-09.35.10:793][891]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.35.11:249][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.456106s)
+[2020.06.29-09.35.11:250][891]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.35.11:250][891]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2020.06.29-09.35.11:251][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.457245s)
+[2020.06.29-09.35.11:280][891]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.06.29-09.35.11:301][891]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.35.11:340][891]LogInit: FAudioDevice initialized.
+[2020.06.29-09.35.11:346][891]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.35.11:348][891]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.35.11
+[2020.06.29-09.35.11:349][891]LogWorld: Bringing up level for play took: 0.001733
+[2020.06.29-09.35.11:349][891]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.06.29-09.35.11:352][891]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 0.311
+[2020.06.29-09.35.11:352][891]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.35.50:226][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.35.50:226][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.35.50:226][551]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.35.50:226][551]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.35.50:237][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.35.50:238][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.35.50:290][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.35.50:297][551]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.06.29-09.35.50:326][553]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.06.29-09.37.28:984][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.38.02:264][896]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.29-09.38.02:271][896]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.38.02:271][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.29-09.38.02:271][896]PIE: New page: PIE session: BattleGround (29 Jun 2020 11:38:02)
+[2020.06.29-09.38.02:271][896]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.38.02:737][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.465043s)
+[2020.06.29-09.38.02:737][896]LogAIModule: Creating AISystem for world BattleGround
+[2020.06.29-09.38.02:738][896]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2020.06.29-09.38.02:738][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.466153s)
+[2020.06.29-09.38.02:769][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2020.06.29-09.38.02:789][896]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.06.29-09.38.02:830][896]LogInit: FAudioDevice initialized.
+[2020.06.29-09.38.02:841][896]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.06.29-09.38.02:843][896]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.06.29-10.38.02
+[2020.06.29-09.38.02:844][896]LogWorld: Bringing up level for play took: 0.001715
+[2020.06.29-09.38.02:844][896]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.06.29-09.38.02:846][896]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround -0.194
+[2020.06.29-09.38.02:846][896]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.38.51:937][781]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.38.51:937][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.38.51:937][781]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BattleGround
+[2020.06.29-09.38.51:938][781]LogWorld: UWorld::CleanupWorld for BattleGround, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-09.38.51:953][781]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.29-09.38.51:954][781]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.06.29-09.38.52:017][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-09.38.52:024][781]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.06.29-09.38.52:055][783]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.06.29-09.38.56:957][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.29-09.38.57:283][379]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.06.29-09.38.57:296][379]Candidate modules for hot reload:
+[2020.06.29-09.38.57:296][379]  BattleTank
+[2020.06.29-09.38.57:296][379]Launching UnrealBuildTool... [C:/Users/world/Documents/ue4/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,7291 Win64 Development -TargetType=Editor -Project="C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/BattleTank.uproject" "C:/Users/world/Documents/SourceTree/04_BattleTanks/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.06.29-09.38.57:312][379]Warning: Starting HotReload took  0.3s.
+[2020.06.29-09.39.14:135][395]CompilerResultsLog: New page: Compilation - 29 Jun 2020 11:39:14
+[2020.06.29-09.39.14:148][395]LogMainFrame: MainFrame: Module compiling took 16.857 seconds
+[2020.06.29-09.39.14:149][395]Warning: HotReload failed, recompile failed
+[2020.06.29-09.39.23:031][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.39.23:046][458]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BPAE58D22A40B7066AA5C01590536B5AFD.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.39.46:795][296]BlueprintLog: New page: Compile Tank_BP
+[2020.06.29-09.39.46:993][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.06.29-09.39.47:354][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.06.29-09.39.47:376][334]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/Tank_BP0F4461054CBB4DD734820B8F9BFABAEA.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.06.29-09.39.48:856][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.29-09.39.48:886][503]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.06.29-09.39.49:495][503]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround4D1C6A5C4ABF1407DC553D8914D06A6C.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround.umap'
+[2020.06.29-09.39.49:515][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2020.06.29-09.39.50:535][503]LogSavePackage: Moving '../../../../../SourceTree/04_BattleTanks/BattleTank/Saved/BattleGround_BuiltData43CD51424802E164078CAD97E240CEA4.tmp' to '../../../../../SourceTree/04_BattleTanks/BattleTank/Content/BattleGround_BuiltData.uasset'
