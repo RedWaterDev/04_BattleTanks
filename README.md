@@ -13,3 +13,5 @@ Bring the tank into the game and jion static meshes with sockets.
 Making tank default pawn, adding physics to tank and setting game mode. 
 ### 3rd Person Camera Control ###
 Setting Up 3rd Person Camera Control.
+### Fixing 3rd Person Camera Rotation ###
+Camera Rotation Fixed.
